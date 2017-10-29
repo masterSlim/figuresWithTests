@@ -33,7 +33,7 @@ public class TriangleTest {
 
     @Test
     public void getInfo() throws Exception {
-        if (triangle.getInfo().equals("треугольник со сторонами ")) {
+        if (triangle.getInfo().equals("треугольник со сторонами 3.0, 5.0, 4.0.")) {
             System.out.println("Имя выводится верно");
         } else {
             System.out.println("Имя выводится неверно");
